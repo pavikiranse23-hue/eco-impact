@@ -1,7 +1,19 @@
 <?php
-$conn = mysqli_connect("localhost","root","","eco_impact");
+
+
+
+
+$host = getenv("MYSQLHOST");
+$user = getenv("MYSQLUSER");
+$password = getenv("MYSQLPASSWORD");
+$database = getenv("MYSQLDATABASE");
+$port = getenv("MYSQLPORT");
+
+$conn = mysqli_connect($host, $user, $password, $database, $port);
 
 if(!$conn){
     die("Database Connection Failed");
 }
+
+
 ?>
