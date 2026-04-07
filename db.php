@@ -4,7 +4,7 @@ $host = "containers-us-west-xxx.railway.app";     // database host
 $user = "root";           // database username
 $password = "VsWrxEPGfswmtbMhjHhWFhXUAavIVTRs";           // database password
 $database = "railway"; // database name
-$port = 3306;             // mysql port
+$port = 6543;             // mysql port
 
 $conn = mysqli_connect($host, $user, $password, $database, $port);
 
