@@ -1,6 +1,6 @@
 <?php
 
-$host = "mysql.railway.internal";      // database host
+$host = "containers-us-west-xxx.railway.app";     // database host
 $user = "root";           // database username
 $password = "VsWrxEPGfswmtbMhjHhWFhXUAavIVTRs";           // database password
 $database = "railway"; // database name
